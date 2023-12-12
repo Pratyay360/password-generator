@@ -1,0 +1,121 @@
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #de1717;
+  /* margin-bottom: 10px; */
+    padding: 30px;
+}
+body {
+  background: #bbbbf9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #5252b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* , IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.input {
+  #length {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5100ff;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    width: 75%;
+  }
+  align-items: center;
+  justify-content: center;
+  display: flex1;
+  text-align: center;
+  background-color: #01df91;
+
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.btn {
+  #button {
+    transition-duration: 0.4s;
+    border: 2px solid #0425aa;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  #button:hover {
+    background-color: #0425aa; /* Green */
+    color: white;
+  }
+  /* margin-left: 20%; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.checkbox {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: inherit;
+  margin-top: 30px;
+  text-shadow: 2px #248a05;
+  text-align: center;
+  display: inline-block;
+
+}
+.output {
+  visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex1;
+  text-align: center;
+  background-color: #86a8e7;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  #password {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 75%;
+  }
+  #copyimg {
+    width: 30px;
+    height: auto;
+  }
+  #copied{
+    visibility: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+}

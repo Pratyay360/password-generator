@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RPG</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://pratyay.vercel.app/favicon.ico" type="image/x-icon" sizes="16x16">
+  </head>
+  <body>
+    <div class="title">
+      <h1>Random Password Generator</h1>
+    </div>
+    <div class="input">
+      <input
+        type="number"
+        id="length"
+        placeholder="Enter Length Of Password"
+        min="8"
+        max="128"
+      />
+      <div class="checkbox">
+        <input type="checkbox" id="uppercase" checked />
+        <label for="uppercase">Uppercase</label>
+        <input type="checkbox" id="lowercase" checked />
+        <label for="lowercase">Lowercase</label>
+        <input type="checkbox" id="numbers" />
+        <label for="numbers">Numbers</label>
+        <input type="checkbox" id="symbols" />
+        <label for="symbols">Symbols</label>
+    </div>
+    <div class="btn">
+        <button id="button" onclick="generate()">Generate</button>
+    </div>
+    </div>
+    <div class="output" id="output">
+      <input type="text" id="password" readonly />
+      <button onclick="Copyf()"><img src="./copy.png" id="copyimg" /></button>
+      <p id="copied">Copied!!</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
