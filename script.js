@@ -1,3 +1,8 @@
+var length = document.getElementById("length");
+var output = document.getElementById("outputs");
+length.oninput = function(){
+    output.innerHTML = length.value;
+}
 function Copyf() {
     var copyText = document.getElementById("password");
     var message = document.getElementById("copied");
